@@ -1,5 +1,4 @@
-
-CLASSPATH = lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar:.
+CLASSPATH = lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar:lib/commonmark-0.18.1.jar:.
 
 LinkedListTest.class: LinkedListTest.java LinkedList.class
 	javac -g -cp $(CLASSPATH) LinkedListTest.java
